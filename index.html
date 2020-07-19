@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27f6d96d7a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>Kaz Monroy | Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav id="navbar" >
+            <div class="logo"> <a href="#welcome-section">Kaz</a></div>
+            <ul class="nav-links">
+                <li><a href="">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- burger menu -->
+            <div class="burger">
+                <div class="line1 burger-line"></div>
+                <div class="line2 burger-line"></div>
+                <div class="line3 burger-line"></div>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="welcome-section">
+            <h1>Kaz
+                <span class="txt-type" data-wait="3000" data-words='["Monroy"]'></span>
+            </h1>
+            
+            <p>Welcome to my personal portfolio</p>
+        </section>
+
+        <section id="projects" class="container">
+            <div class="title">
+                <h1>Check out my projects</h1>
+            </div>
+            <div class="portfolio">
+                <div class="box proj1">
+                    <h2>Tribute</h2>
+                    <p>A small space dedicated to Hayley W.</p>
+                    <img class="gray-overlay" src="./resources/img/tribute1.png" alt="Hayley Williams Tribute">
+                </div>
+                <div class="box proj2">
+                    <h2>Inimi</h2>
+                    <p>Creative bakery based in Ecuador</p>
+                    <img class="gray-overlay" src="./resources/img/inimi1.png" alt="Inimi Creative Bakery from Ecuador">
+                </div>
+                <div class="box proj3">
+                    <h2>Broadway</h2>
+                    <p>Fictional agency project</p>
+                    <img class="gray-overlay" src="./resources/img/broadway1.png" alt="Broadway Agency">
+                </div>
+
+
+
+            </div>
+
+            <div class="btn"><a href="https://codepen.io/kazmonroy" target="_blank">See more</a></div>
+
+        </section>
+
+        <section id="contact" class="container">
+            <div class="title">
+                <h1>Let's talk...</h1>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" required>
+
+                    </div>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Let's grab a coffee"></textarea>
+                    </div>
+
+                    <a href="" type="submit" class="btn">Submit</a>
+                </form>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <ul class="contact-btn">
+            <li><a href="https://twitter.com/kazmonroy" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://github.com/kazmonroy/" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/kazmonroy/" target="_blank"><i
+                        class="fab fa-instagram fa-2x"></i></a></li>
+        </ul>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
